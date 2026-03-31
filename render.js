@@ -216,13 +216,11 @@ function onMotion(e) {
 function startGrav() {
   gravOn = true;
   btnGrav.classList.add('active');
-  btnGrav.textContent = 'Gravity On';
   window.addEventListener('devicemotion', onMotion);
 }
 function stopGrav() {
   gravOn = false;
   btnGrav.classList.remove('active');
-  btnGrav.textContent = 'Gravity sensor';
   gravityVec = { x:0, y:-G_VAL };
   window.removeEventListener('devicemotion', onMotion);
 }
