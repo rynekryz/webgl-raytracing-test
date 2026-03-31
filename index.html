@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>WebGL Ray Tracing Test</title>
+<meta name="theme-color" content="#303030" />
+<link rel="apple-touch-icon" href="icon.png" />
+<link rel="icon" type="image/png" href="icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="apple-mobile-web-app-title" content="WebGL RT" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ui.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="ui" class="glass">
+  <div class="ui-title">Render Stats</div>
+  <div class="ui-row"><span class="ui-label">FPS</span><span class="ui-val" id="v-fps">--</span></div>
+  <div class="ui-row"><span class="ui-label">Frame</span><span class="ui-val" id="v-ms">--.-- ms</span></div>
+  <div class="ui-row"><span class="ui-label">Res</span><span class="ui-val" id="v-res">--</span></div>
+  <div class="ui-row"><span class="ui-label">GPU</span><span class="ui-val" id="v-gpu">--</span></div>
+</div>
+<div id="hint">Tap ball to throw · Drag to move</div>
+<div id="ctrl" class="glass">
+  <button class="pill" id="btn-gi">Global Illum.</button>
+  <div class="sep"></div>
+  <button class="pill" id="btn-physics">Physics</button>
+  <div class="sep"></div>
+  <button class="pill" id="btn-grav" disabled>Gravity sensor</button>
+</div>
+<div class="zen">Zenlixir</div>
+<script src="render.js"></script>
+</body>
+</html>
