@@ -32,7 +32,7 @@ This isnt an actual ray-tracing that use rt cores, but it uses:
 So its real-time rays, just not real RTX. But at least it looks good and can run on a potato lol.
 
 <div align="center">
-<strong>Made with ♥︎ by Zenlixir</strong>
+<strong>Made with ♥︎ by Rynekryz</strong>
 </div>
 
 <div align="center">
