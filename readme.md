@@ -9,6 +9,7 @@
   <img src="assets/badges/html.svg" alt="HTML"/>
   <img src="assets/badges/css.svg" alt="CSS"/>
   <img src="assets/badges/javascript.svg" alt="JavaScript"/>
+  <img src="assets/badges/glsl.svg" alt="GLSL"/>
 </p>
 
 ## Screenshots
