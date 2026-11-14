@@ -5,7 +5,7 @@
   <p>Basically ultra realistic balls on your screen without turning your device into baked potato</p>
 </div>
 <p align="center">
-  <a href="https://github.com/rynekryz/webgl-raytracing-test/stargazers"><img src="https://img.shields.io/github/stars/rynekryz/webgl-raytracing-test?style=flat&logo=github&labelColor=5F5E5E&color=5F5E5E&logoColor=white&sort=semver" alt="GitHub stars" height="30"/></a>
+  <a href="https://github.com/rynekryz/webgl-raytracing-test/stargazers"><img src="assets/badges/stars.svg" alt="GitHub stars" height="30"/></a>
   <img src="assets/badges/html.svg" alt="HTML"/>
   <img src="assets/badges/css.svg" alt="CSS"/>
   <img src="assets/badges/javascript.svg" alt="JavaScript"/>
